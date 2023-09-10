@@ -1,0 +1,1269 @@
+patrickjhannon02@outlook.com
+patrickjosephhannon@outlook.com
+_george3TSmith
+
+AZ-104_Prerequisites_for_Azure_administrators
+az104webapppjh
+az104storeaccpjh
+az104scontainerpjh
+az104appserplanpjh
+https://az104webapppjh.azurewebsites.net
+######################
+labuser_77623_40317555@instructorwhizlabs.onmicrosoft.com
+#5?0i6oyYq!3KA1
+rg_eastus_77623_1_16641219391000
+phannon
+joshua36634_
+######################
+labuser_77623_39982865@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_1663883117786
+X4b5k*Ws?Kp8R!I%m
+phannon
+joshua36634_
+labuser_77623_39982865@instructorwhizlabs.onmicrosoft.com Pay-As-You-Go    82676786-5bc7-43c6-b8f8-b3ee02b0b5f3 AzureC…
+######################
+labuser_77623_84953386@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_16637985511722
+6Z1#iqK$X4*7Sf
+phannon
+joshua36634_
+#######################
+labuser_77623_71048123@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_1663761094765
+v5aE41&Y?ie%M
+phannon
+joshua36634_
+#######################
+labuser_77623_59808342@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_16637173591563
+B8&qrtT7P!#*3L
+labuser_77623_59808342@instructorwhizlabs.onmicrosoft.com Pay-As-You-Go    82676786-5bc7-43c6-b8f8-b3ee02b0b5f3 AzureC…
+phannon
+joshua36634_
+#######################
+labuser_77623_78012240@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_1663531953786
+J#b&63!F1$v*tAV8w
+az204pjhvm
+az204pjhvm2
+phannon
+joshua36634_
+9b32b452-bc82-41d7-9bb0-6db26687fc1c
+rg_westeurope_77623_2_1663531955636
+#######################
+labuser_77623_90565502@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_1663329065473
+*8$s3AEpu5I?F
+######################
+labuser_77623_35057377@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_16631945901256
+T0mw5*bD2!&$BKW
+######################
+labuser_77623_93580009@instructorwhizlabs.onmicrosoft.com
+%420yo#q9cJKO!
+rg_eastus_77623_1_1663156192236
+######################
+labuser_77623_80375568@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_1663106703187
+rg_southeastasia_77623_3_16631067071010
+dQrsLD&P42h*6#%
+rg_westeurope_77623_2_16631067041639
+######################
+Exam: Saturday, September 24, 2022 Start time: 07:15 America/Chicago - CDT
+Extra Time - Double Time	Receives an additional 100% of original time
+patrick.hannon@gmfinancial.com
+patrickjosephhannon@outlook.com
+Azure Storage 
+storage account 5 PB 
+Blobs, queues, tables, files 
+replication 3 copies 
+storage tiers hot, cold, archive 
+Managed for VMs or unmanaged 
+Data services 
+Azure Sql Database
+Azure SQL Managed instance 
+Sql server on virtual machine 
+Synapse Analytics SQL dataware house 
+Data services 
+Cosmos db
+Axure database for MySql
+Azure database for PostgreSQL
+MariaDB
+Azure Cache for Redis 
+
+Overview
+Microservices 
+	Service fabric 
+	Azure Functions 
+	Azure Logic Apps 
+	API Management 
+	Azure Kubernetes Services AKS - containers 
+Networking
+	Connectivity
+		Virtual Network VNet
+		Virtual WAN
+		ExpressRoute
+		VPN Gateway
+		Azure DNS 
+		Peering
+		Bastion
+	Security
+		Network Security Groups NSG
+		Azure Private Link
+		DDos Protection
+		Azure Firewall
+		Web Application Firewall WAF
+		Virtual Network Endpoints 
+	Delivery
+		CDN 
+		Azure Front Door 
+		Traffic Manager
+		Application Gateway
+		Load Balancer 
+	Monitoring
+		Network Watcher 
+		ExpressRoute Monitor
+		Azure Monitor 
+Hundreds of Services 
+	Chat Bot Services 
+	Machine Learning
+	Media Services 
+	Conginitive Services
+	IoT
+14 Programming or Scripting on the Exam 
+Azure scripting 
+	Azure Portal 
+	Powershell Az
+	CLI 
+	JSON for templates and CLI response 
+Automation 
+Source control 
+Reduce errors on repetitive tasks 
+A form of documentation 
+############################Explore Azure Resource Manager template structure
+az login
+az login --tenant 5187a1a8-f9cd-46ed-8c75-11a891247bb0
+PS C:\Users\patri> az login --tenant 5187a1a8-f9cd-46ed-8c75-11a891247bb0
+A web browser has been opened at https://login.microsoftonline.com/5187a1a8-f9cd-46ed-8c75-11a891247bb0/oauth2/v2.0/authorize. Please continue the login in the web browser. If no web browser is available or if the web browser fails to open, use device code flow with `az login --use-device-code`.
+[
+{
+"cloudName": "AzureCloud",
+"homeTenantId": "5187a1a8-f9cd-46ed-8c75-11a891247bb0",
+"id": "a07e1329-e13a-4c90-babc-03a38e8d3000",
+"isDefault": true,
+"managedByTenants": [],
+"name": "Azure subscription 1",
+"state": "Enabled",
+"tenantId": "5187a1a8-f9cd-46ed-8c75-11a891247bb0",
+"user": {
+  "name": "patrickjosephhannon@outlook.com",
+  "type": "user"
+}
+},
+{
+"cloudName": "AzureCloud",
+"homeTenantId": "5187a1a8-f9cd-46ed-8c75-11a891247bb0",
+"id": "4aad3aaf-1575-4b1f-8c0d-e9e8c9563f09",
+"isDefault": false,
+"managedByTenants": [],
+"name": "hannonassociates",
+"state": "Enabled",
+"tenantId": "5187a1a8-f9cd-46ed-8c75-11a891247bb0",
+"user": {
+  "name": "patrickjosephhannon@outlook.com",
+  "type": "user"
+}
+}
+]
+
+az group create --name Az104Test --location EastUS
+Connect-AzAccount
+az account set --subscription "Concierge Subscription"
+{
+"cloudName": "AzureCloud",
+"homeTenantId": "604c1504-c6a3-4080-81aa-b33091104187",
+"id": "82055f3c-e0b5-4770-9cf4-3ec892b43e96",
+"isDefault": true,
+"managedByTenants": [],
+"name": "Concierge Subscription",
+"state": "Enabled",
+"tenantId": "604c1504-c6a3-4080-81aa-b33091104187",
+"user": {
+  "name": "patrickjosephhannon@outlook.com",
+  "type": "user"
+}
+az account set --subscription 82055f3c-e0b5-4770-9cf4-3ec892b43e96
+
+templateFile="azuredeploy.json"
+today=$(date +"%d-%b-%Y")
+DeploymentName="blanktemplate-"$today
+
+az deployment group create \
+--name $DeploymentName \
+--template-file $templateFile
+
+az deployment group create --parameters '{ \"policyName\": { \"value\": \"policy2\" } }' --resource-group testgroup --template-uri https://myresource/azuredeploy.json
+
+########################Deploying virtual machine is part of Exam AZ-104: Microsoft Azure Administrator.
+###########https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machines/1-introduction
+###########https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machines/4-determine-virtual-machine-sizing
+General purpose
+Compute optimized
+Memory optimized
+Storage optimized
+###########https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machines/5-determine-virtual-machine-storage
+#Virtual machine storage options
+	80,000 I/O operations per second (IOPS) per VM
+#Managed disks
+	An Azure-managed disk is a virtual hard disk (VHD)
+	We call a managed disk ‘managed’ because it is an abstraction over page blobs, blob containers, and Azure storage accounts
+	Azure creates and manages the disk for you
+	The available types of disks are Ultra Solid State Drives (SSD), Premium SSD, Standard SSD, and Standard Hard Disk Drives (HDD).
+	best performance for your application  we recommend that you migrate any VM disk that requires high IOPS to Premium Storage. If your disk does not require high IOPS, you can help limit costs by keeping it in standard Azure Storage.
+	Managed disks are required for the single instance virtual machine SLA.
+###########https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machines/6-create-portal
+Create virtual machines in the portal
+	Basic - Project details, Administrator account, Inbound port rules
+	Disks - OS disk type, data disks
+	Networking - Virtual networks, load balancing
+	Management - Monitoring, Auto-shutdown, Back up
+	Advanced - Add additional configuration, agents, scripts, or applications via virtual machine extensions or cloud-init.
+###########https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machines/7-connect-to
+	Windows-based virtual machines (RDP)
+	Linux-based virtual machines (SSH) client
+	Bastion connections
+		 provision inside your virtual network  RDP/SSH over SSL provision inside your virtual network
+		 Using Azure Bastion protects your virtual machines from exposing RDP/SSH ports to the outside world while still providing secure access using RDP/SSH
+###########https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machines/8-connect-to-windows
+	Connect to Windows virtual machines
+		Remote Desktop Protocol (RDP) TCP port 3389
+		The Azure PowerShell Get-AzRemoteDesktopFile cmdlet provides the same functionality.
+		#Windows Remote Management (WinRM) command-line session
+		WinRM to run noninteractive Windows PowerShell scripts
+		You can upload a certificate that you intend to use to Azure Key Vault prior to establishing a session
+		#Creating a key vault.
+		Creating a self-signed certificate.
+		Uploading the certificate to the key vault.
+		Identifying the URL of the certificate uploaded to the key vault.
+		Referencing the URL in the Azure VM configuration.
+###########https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machines/9-connect-to-linux
+	Connect to Linux virtual machines
+	SSH connections
+		SSH is the default connection protocol for Linux VMs hosted in Azure
+	A more secure and preferred method of connecting to a VM using SSH is by using a public-private key pair, also known as SSH keys.
+	The public key is placed on your Linux VM, or any other service that you wish to use with public-key cryptography.
+	The private key remains on your local system. Protect this private key. Do not share it.
+########################High availability and scaling of virtual machine is part of Exam AZ-104: Microsoft Azure Administrator.
+###########https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machine-availability/
+Configure virtual machine availability
+	You will learn how to configure virtual machine availability including vertical and horizontal scaling.
+Learning objectives
+	Implement availability sets and availability zones.
+	Implement update and fault domains.
+	Implement virtual machine scale sets.
+	Autoscale virtual machines.
+###########https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machine-availability/2-plan-for-maintenance-downtime
+Plan for maintenance and downtime
+	As an Azure administrator you must be prepared for planned and unplanned failures
+		three scenarios
+			Unplanned Hardware Maintenance
+			Unexpected Downtime
+			Planned Maintenance
+			without any impact upon your Virtual Machines or Cloud Services
+###########https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machine-availability/3-setup-availability-sets
+Setup availability sets
+	An Availability Set is a logical feature used to ensure that a group of related VMs are deployed so that they aren't all subject to a single point of failure and not all upgraded at the same time during a host operating system upgrade in the datacenter.
+		For redundancy, configure multiple virtual machines in an Availability Set.
+		Configure each application tier into separate Availability Sets
+		Combine a Load Balancer with Availability Sets
+		Use managed disks with the virtual machines
+	Service Level Agreements (SLAs)
+		For all Virtual Machines that have two or more instances deployed across two or more Availability Zones in the same Azure region, we guarantee you will have Virtual Machine Connectivity to at least one instance at least 99.99% of the time.
+		For all Virtual Machines that have two or more instances deployed in the same Availability Set, we guarantee you will have Virtual Machine Connectivity to at least one instance at least 99.95% of the time.
+		For any Single Instance Virtual Machine using premium storage for all Operating System Disks and Data Disks, we guarantee you will have Virtual Machine Connectivity of at least 99.9%.
+###########https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machine-availability/4-review-update-fault-domains
+Review update and fault domains
+		Update Domains and Fault Domains help Azure maintain high availability and fault tolerance when deploying and upgrading applications. Each virtual machine in an availability set is placed in one update domain and one fault domain.
+Update domains (UD) 
+Fault domains (FD) is a group of nodes that represent a physical unit of failure
+Think of a fault domain as nodes belonging to the same physical rack.
+###########https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machine-availability/5-review-availability-zones
+Review availability zones
+	Considerations
+		Availability Zones are unique physical locations within an Azure region.
+		Each zone is made up of one or more datacenters equipped with independent power, cooling, and networking.
+		To ensure resiliency, there’s a minimum of three separate zones in all enabled regions.
+		The physical separation of Availability Zones within a region protects applications and data from datacenter failures.
+		Zone-redundant services replicate your applications and data across Availability Zones to protect from single-points-of-failure.
+		With Availability Zones, Azure offers industry best 99.99% VM uptime SLA.
+	Implementation
+		Azure services that support Availability Zones fall into two categories:
+		Zonal services. Pins the resource to a specific zone (for example, virtual machines, managed disks, Standard IP addresses).
+		Zone-redundant services. Platform replicates automatically across zones (for example, zone-redundant storage, SQL Database).
+		Note
+			To achieve comprehensive business continuity on Azure, build your application architecture using the combination of Availability Zones with Azure region pairs.
+###########https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machine-availability/6-compare-vertical-horizontal-scaling
+Compare vertical and horizontal scaling
+	Vertical scaling scale up and scale down
+	Horizontal scaling Horizontal scaling is more flexible
+	Reprovisioning means removing an existing virtual machine and replacing it with a new one
+###########https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machine-availability/7-implement-scale-sets
+Implement scale sets
+	With all VMs configured the same support true autoscale
+Scale set benefits
+	This is known as autoscale  up to 1,000 VM instances
+###########https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machine-availability/8-create-scale-sets	
+Create scale sets
+	Initial instance count
+	Instance size
+	Azure spot instance
+	Enable scaling beyond 100 instances.
+	Spreading algorithm
+###########https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machine-availability/9-implement-autoscale
+Implement autoscale
+Autoscale benefits
+	Automatically adjust capacity
+	Scale out
+	Scale in
+	Schedule events
+	Less overhead
+###########https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machine-availability/10-configure-autoscale
+Configure autoscale
+	Minimum number of VM
+	Maximum number of VM
+	Scale out CPU threshold
+	Number of VMs to increase by
+	Scale in CPU threshold
+	Number of VMs to decrease by
+########################AZ-104: Deploy and manage Azure compute resources
+Deploy and manage Azure compute resources (20–25%)
+###########https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machine-extensions/1-introduction
+Learning objectives
+Identify features and usage cases for virtual machine extensions.
+Identify features and usage cases for custom script extensions.
+Identify features and usage cases for desired state configuration.
+###########https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machine-extensions/2-implement-virtual-machines-extensions
+Implement virtual machines extensions
+Azure virtual machine extensions are small applications that provide post-deployment configuration and automation tasks on Azure VMs
+	Azure VM extensions can be:
+		Managed with Azure CLI, PowerShell, Azure Resource Manager templates, and the Azure portal.
+###########https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machine-extensions/3-implement-custom-script-extensions
+Implement custom script extensions
+	A Custom Script Extension(CSE)
+	You can install the CSE from the Azure portal by accessing the virtual machines Extensions blade
+	PowerShell Set-AzVmCustomScriptExtension
+	Set-AzVmCustomScriptExtension -FileUri https://scriptstore.blob.core.windows.net/scripts/Install_IIS.ps1 -Run "PowerShell.exe" -VmName vmName -ResourceGroupName resourceGroup -Location "location"
+Considerations
+	Timeout. Custom Script extensions have 90 minutes to run	
+	Dependencies. If your extension requires networking or storage access
+	Failure events. Be sure to account for any errors that might occur when running your script.
+	Sensitive data. Your extension may need sensitive information such as credentials, storage account names,
+###########https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machine-extensions/4-implement-desired-state-configuration
+	Implement desired state configuration
+		Desired State Configuration (DSC) is a management platform in Windows PowerShell
+		DSC provides a set of Windows PowerShell language extensions, Windows PowerShell cmdlets
+		DSC centers around creating configurations
+		The DSC script consists of a Configuration block, Node block, and one or more resource blocks.
+		The Windows PowerShell DSC comes with a set of built-in configuration resources. For example, File Resource, Log Resource, and User Resource.
+###########https://docs.microsoft.com/en-us/learn/modules/configure-app-service-plans/
+Configure app service plans
+###########https://docs.microsoft.com/en-us/learn/modules/configure-app-service-plans/1-introduction
+###########https://docs.microsoft.com/en-us/learn/modules/configure-app-service-plans/2-implement-azure
+Implement Azure app service plans
+	Region 
+	Number of VM instances
+	Size of VM instances
+How the app runs and scales
+########################udemy.com
+###########15. Memorizing PowerShell and CLI Commands
+Predictable naming system 
+CLI 
+	az cli 
+	az vm list
+	az vm create
+	az vm delete 
+	az keyvault list
+	az keyvault 
+	az network vnet list 
+	az network vnet subnet list 
+PowerShell reference 
+	Get-AzVM
+	New-AzVM
+	Remove-AzVM 
+	Get-AzVirtualNetwork
+	Get-AzVirtualNetworkSubnetConfig
+	New-AzVirtualNetworkSubnetConfig
+	Remove-AzVirtualNetworkSubnetConfig
+###########16. *UPDATED* Details about PowerShell and CLI for Managing Azure
+$PSVersionTable. PSVersion
+Bash CLI 
+Azure CLI 
+There are Azure Specific modules 
+PowerShell
+	Power shell module = az 
+Connect-Account 
+Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
+###########17. *UPDATED* Live Demo: Installing PowerShell Core with Az Module
+Install-Module -Name Az -AllowClobber -Force
+Get-InstalledModule -Name Az -AllVersions | Select-Object -Property Name, Version
+Get-AzVM
+Connect-AzAccount
+Account                         SubscriptionName     TenantId                             Environment
+-------                         ----------------     --------                             -----------
+patrickjosephhannon@outlook.com Azure subscription 1 5187a1a8-f9cd-46ed-8c75-11a891247bb0 AzureCloud
+Get-AzVM
+###########18. Switching to Another Subscription
+Get-AzSubscription
+Name                 Id                                   TenantId                             State
+----                 --                                   --------                             -----
+Azure subscription 1 a07e1329-e13a-4c90-babc-03a38e8d3000 5187a1a8-f9cd-46ed-8c75-11a891247bb0 Enabled
+hannonassociates     4aad3aaf-1575-4b1f-8c0d-e9e8c9563f09 5187a1a8-f9cd-46ed-8c75-11a891247bb0 Enabled
+$context = Get-AzSubscription -SubscriptionId 4aad3aaf-1575-4b1f-8c0d-e9e8c9563f09
+Set-AzContext $context
+########################Section 4:Managed Azure Active Directory 
+###########19. Azure AD - Free vs Premium
+###########20. *NEW* Managing Multiple Directories
+Basic concepts of Accounts & Subscriptions 
+Account 
+	Person or Program
+	App - Managed Identity 
+Tenant 
+	Organization assign to Azure Active Directory
+	Azure Account 
+Subscription 
+	Billing arrangement 
+		Free subscription
+		Pay as you go 
+	Tenants can have more than one subscription 
+Creating Azure active directory tenant 
+###########22. Switch Between Azure AD Tenants
+18a464ab-e005-4558-9d06-04511e6b0b8e
+###########23. Add Custom Domains
+mydevtenantaz104pjh.onmicrosoft.com
+theplasticpaddy.com
+patrick_hannon@hotmail.com
+_TestIt23Duck
+###########25. *NEW* Manage Azure AD Licenses
+###########26. Azure AD Join
+###########27. *NEW* Administrative Units
+jhannon@mydevtenantaz104pjh.onmicrosoft.com
+Maza6972
+Mallikarjun 
+###########32. Overview of RBAC
+Your Role:
+Global administrator
+Xaxo5936
+john.doe@patrickjosephhannonoutlook.onmicrosoft.com
+Give permission to all of the resources in the group
+###########33. Creating Custom RBAC Roles
+Have the least permissions
+########################Section 7 Manage subscriptions and governance 
+###########36. Accounts, Subscriptions, and Resource Groups
+Basic Concepts of Accounts & Subscriptions
+Account
+	Person or App - Managed Identity
+Tenant
+	represents organization your company.com
+	dedicated instance 
+Subscription
+	billing agreement with microsoft 
+		Free subscriptions
+		Pay as you go 
+		Enterprise agreements
+		Not every tenant has a subscription
+		Tenants that can have multiple subscription
+		Accounts are assigned roles in the Tenant 
+		Grant an account roles to your 
+		Accounts to individual resources
+Resource Group
+	under a subscription
+	resources belong to one resource group
+	Resource can be deleted 
+###########37. *UPDATED* The Subscription Dashboard	
+Subscriptions 
+###########38. *UPDATED* Assign administrator permissions
+	hannon Goru9721 12Goru9721
+	josephhannon@patrickjosephhannonoutlook.onmicrosoft.com
+###########39. Cost center and tagging
+###########40. Resource Groups and Resource Locks
+###########41. Azure Policy
+Allowed virtual machine size SKUs
+Standard B1ms (1 vcpu, 2 GiB memory)
+###########42. Resource Group Policies
+_TransAm2
+Start-AzPolicyComplianceScan -ResourceGroupName ''
+###########43. Move Resources
+/subscriptions/4aad3aaf-1575-4b1f-8c0d-e9e8c9563f09/resourceGroups/newrg/providers/Microsoft.Web/sites/pjh204
+###########44. *UPDATED* Managing Policy by PowerShell
+Allowed virtual machine size SKUs
+Get-AzPolicyDefinition | where-Object | { $_.Properties.Display -eg 'Allowed virtual machine size SKUs'
+###########45. *NEW* Subscriptions and Management
+###########46. HANDS-ON LABS: Subscriptions
+https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/blob/master/Instructions/Labs/LAB_02a_Manage_Subscriptions_and_RBAC.md
+git clone <repo> <directory>
+https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator.git
+C:\Users\patri\OneDrive\git\azure\AZ-104-MicrosoftAzureAdministrator
+git clone https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator.git C:\Users\patri\OneDrive\git\azure\AZ-104-MicrosoftAzureAdministrator
+az104-02-aaduser1 Vayo6813 TestIt4433
+az104-02-aaduser1@patrickjosephhannonoutlook.onmicrosoft.com
+###########47. HANDS-ON LABS: Policy
+https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/blob/master/Instructions/Labs/LAB_02b-Manage_Governance_via_Azure_Policy.md
+df
+//bidforservicestorage.file.core.windows.net/bidforservicestoragefileshare
+bidforservice_resource_grp
+validatetagsrequired
+###########48. Section 1 Wrapup
+########################Section 8: Create and configure storage accounts
+###########49. *UPDATED* Create Storage Account
+###########50. *UPDATED* Storage Advanced Options
+###########51. *UPDATED* Virtual Networks and Firewalls
+###########52. *UPDATED* Access Keys and SAS
+Q5J90aULEHQwwmY4EAruChW6BGHv4ABFz72rNgyHLegbgG2vP706uukCjpSpSlRptsaCqq48gVPWxU3REqEQ2Q==
+DefaultEndpointsProtocol=https;AccountName=bidforservicestorage;AccountKey=5dr4QVir71lG+LYWyxP7Wu2r7BVYgGF1O+9kUi7np1gq/Vj/8c0nQHNxiMBwMiO+wK6horT8yrl9kjxs/EiAdQ==;EndpointSuffix=core.windows.net
+###########53. Storage Explorer
+https://bidforservicestorage.blob.core.windows.net/sduffyaz104?sp=r&st=2022-09-11T17:30:55Z&se=2022-09-12T01:30:55Z&spr=https&sv=2021-06-08&sr=c&sig=8tfB5oAxD7WjiR5%2BVKe%2F%2B0FIkLY8yeuo96KE11IdsiA%3D
+https://bidforservicestorage.blob.core.windows.net/sduffyaz104/IMG_1363.JPG?sp=r&st=2022-09-11T17:33:07Z&se=2022-09-12T01:33:07Z&spr=https&sv=2021-06-08&sr=b&sig=sTVG2kYzNgL2R1VG88BnI%2BAuaeywgIc7Ogj6y1jBUmA%3D
+###########54. Log Analytics
+###########55. Redundant Storage
+###########56. Copy Files with AzCopy
+C:\Users\patri\OneDrive\git\azure\azcopy_windows_amd64_10.16.0\azcopy_windows_amd64_10.16.0
+###########57. *NEW* Access Tiers
+###########58. *NEW* Lifecycle Management
+###########59. *NEW* Azure AD Access Control for Storage
+###########60. *NEW* Object Replication
+Do Tutorial https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/blob/master/Instructions/Labs/LAB_07-Manage_Azure_Storage.md
+########################Microsoft Explore Azure Storage security features
+https://docs.microsoft.com/en-us/training/modules/explore-azure-blob-storage/4-blob-storage-security
+###########Azure Storage encryption for data at rest
+256-bit AES encryption, one of the strongest block ciphers available
+Storage accounts are encrypted regardless of their performance tier
+###########Encryption key management
+customer-managed
+customer-provided
+https://docs.microsoft.com/en-us/training/modules/explore-azure-blob-storage/5-azure-storage-redundancy
+###########Evaluate Azure Storage redundancy options
+###########Redundancy in the primary region
+	Locally redundant storage (LRS)
+		three times within a single physical location in the primary region
+	Zone-redundant storage (ZRS)
+		 Azure availability zones in the primary region
+###########Redundancy in a secondary region
+PS C:\Users\patri\OneDrive\___Docs\__Cloud\___azure\AZ-104 Prerequisites for Azure administrators\storage_account> Connect-AzAccount
+
+Account                                                   SubscriptionName TenantId                             Environ
+                                                                                                                ment
+-------                                                   ---------------- --------                             -------
+labuser_77623_80375568@instructorwhizlabs.onmicrosoft.com Pay-As-You-Go    82676786-5bc7-43c6-b8f8-b3ee02b0b5f3 AzureC…
+Task 1: Provision the lab environment
+Task 2: Create and configure Azure Storage accounts
+https://az104testpjh.blob.core.windows.net/az104-07-container/licenses/LICENSE
+https://az104testpjh.blob.core.windows.net/az104-07-container/licenses/LICENSE?sp=r&st=2022-09-12T23:01:27Z&se=2022-09-15T07:01:27Z&spr=https&sv=2021-06-08&sr=b&sig=ivzED9EkWwjBVvjnBurXqKQz07Aljx5DEIWcdAqJs%2BQ%3D
+johnlukejones01@gmail.com
+‪7408073086‬
+)]}',
+{"CID":"a77e8b2f-13ff-437a-a51a-3e2d09e82174","Date":"2022-09-13T23:15:36.7230602Z","Exception":null}
+Task 6: Manage network access for Azure Storage
+Invoke-WebRequest -URI 'https://az104testpjh.blob.core.windows.net/az104-07-container/licenses/LICENSE?sp=r&st=2022-09-13T23:51:28Z&se=2022-09-14T07:51:28Z&spr=https&sv=2021-06-08&sr=b&sig=9LKxxeNq%2FOYOLOh1OyfHvlUlKmrGRDjln40d3NyVcqE%3D'
+########################Section 9: Import and export data to Azure 
+###########62. Moving Large Files
+###########63. Blob Storage
+###########64. CDN
+cdnaz104pjh
+########################Section 10: Configure Azure files 
+65. Create Azure file share
+AZ-204 Developing Solutions for Microsoft Azure
+66. Azure File Sync
+67. Troubleshoot Azure File Sync
+https://docs.microsoft.com/en-us/azure/storage/file-sync/file-sync-troubleshoot?tabs=portal1%2Cazure-portal
+########################Section 11: Implement backup and recovery
+###########68. Azure Backup
+###########69. File Recovery from a VM Backup
+###########70. On-Premises Backup
+###########71. Backup Reports
+###########72. *NEW* Soft Delete for VM Backups
+###########73. *NEW* Azure Site Recovery / ASR to Site-to-Site Replication
+###########74. *NEW* ASR Test Failover
+###########75. Hands-On Practice
+https://learn.microsoft.com/en-us/azure/backup/quick-backup-vm-portal
+az104bkupvaultpjh
+###########76. Section 2 Wrapup
+########################Section 12: Azure Virtual Machines 
+###########77. *UPDATED* Create a Virtual Machine
+###########78. *UPDATED* Connect to a Virtual Machine
+###########79. *UPDATED* VM Availability
+en.wikipedia.org/wiki/High_availability
+###########80. *UPDATED* VM Monitoring
+###########81. *NEW* VM Custom Script Extension
+###########82. *NEW* Azure Bastion Service
+Creating a new Bastion 'rg_eastus_77623_1_1663531953786-vnet-bastion'.
+###########83. *UPDATED* Virtual Machine Scale Sets
+########################Microsoft: order of operations to rotate storage account access keys
+1_Answer_order of operations to rotate storage account access keys
+###########84. *NEW* Azure Compute Gallery
+###########85. Create a VM in PowerShell
+###########86. Start and Stop a VM in PowerShell
+OperationId : a4c601aa-44fb-4a89-a872-c8841ed2cae0
+Status      : Succeeded
+StartTime   : 9/20/2022 7:17:13 PM
+EndTime     : 9/20/2022 7:18:41 PM
+Error       :
+https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/blob/master/Instructions/Labs/LAB_08-Manage_Virtual_Machines.md
+############87. Hands-On Practice
+Task 1: Deploy zone-resilient Azure virtual machines by using the Azure portal and an Azure Resource Manager template
+Task 2: Configure Azure virtual machines by using virtual machine extensions
+az104-08-vm0
+=SUM(C2:C20)
+13. 19.
+TestPa55w.rd
+Task 3: Scale compute and storage for Azure virtual machines
+Task 4: Register the Microsoft.Insights and Microsoft.AlertsManagement resource providers
+Task 5: Deploy zone-resilient Azure virtual machine scale sets by using the Azure portal
+Task 6: Configure Azure virtual machine scale sets by using virtual machine extensions
+############88. HANDS-ON LAB: Create a VM Scale Set using a VM Image
+%windir%\system32\sysprep\sysprep.exe
+myvm-image-20220925
+myvmstorage20220925
+##
+labuser_77623_34135120@instructorwhizlabs.onmicrosoft.com
+FpBD5mr$J&7%nY16f#3
+rg_eastus_77623_1_16641372761543
+myvmaz104
+phannon
+joshua36634_
+########################Section 13: Windows and Linux VMs
+############90. Modify Existing ARM Templates - Part 1
+############91. Modify Existing ARM Templates - Part 2
+############92. Modify Existing ARM Templates - Part 3
+docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-powershell
+############94. Deploy Linux VM using ARM Templates
+labuser_77623_24711329@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_16642314191253
+SWd$%h5D*?qg13T
+phannon
+joshua36634_
+Azure/azure-quickstart-templates/customscript-extension-public-storage-on-ubuntu
+phannon;az104testpjh;password=az104testpjh
+az104testkeypair
+############95. ARM Custom Script Extensions
+############96. ARM Use Existing VHD
+############97. ARM Templates for Almost Everything
+############98. Hands-On Practice
+https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/blob/master/Instructions/Labs/LAB_03b-Manage_Azure_Resources_by_Using_ARM_Templates.md
+phannon
+joshua36634_
+labuser_77623_80194318@instructorwhizlabs.onmicrosoft.com
+Jk*7LS8D?u9Fc&
+rg_eastus_77623_1_16643196631341
+labuser_77623_80194318@instructorwhizlabs.onmicrosoft.com Pay-As-You-Go    82676786-5bc7-43c6-b8f8-b3ee02b0b5f3 AzureC…
+########################Section 14: Manage Azure VM
+############99. Add Data Disks to a VM
+newdatadiskaz104
+############100. Add NIC Interfaces to a VM
+az104pjhnetwork
+############101. Change VM Size
+Set-AzureRmVM -Reploy -ResourceGroupName "" -Name ""
+labuser_77623_52572629@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_16643653201361
+vF!x%e138mK$NOE
+labuser_77623_52572629@instructorwhizlabs.onmicrosoft.com Pay-As-You-Go    82676786-5bc7-43c6-b8f8-b3ee02b0b5f3 AzureC…
+az104pjstoracc
+phannon
+joshua36634_
+############102. Redeploy a VM
+############103. *NEW* VM Server-Side Encryption (SSE)
+CreateaVMwithaUserDatavalue
+########################Section 15: Manage VM Backups
+105. Introduction to VM Backups
+labuser_77623_44416963@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_1664406212798
+zd8e&0TLy*Z!m5#V
+phannon
+joshua36634_
+myvm-image-20220925
+az104pjhkeyv
+az104pjhkeyvakey
+labuser_77623_44416963@instructorwhizlabs.onmicrosoft.com Pay-As-You-Go    82676786-5bc7-43c6-b8f8-b3ee02b0b5f3 AzureC…
+############105. Introduction to VM Backups
+############106. VM Backup Jobs and Restores
+############107. Section 3 Wrapup
+############108. Hands-On Practice
+https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/blob/master/Instructions/Labs/LAB_10-Implement_Data_Protection.md
+########################Section 16: Azure App Services 
+############109. Introduction to App Services
+labuser_77623_37204289@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_1664537801354
+#v4!nG819r6&bIOl*Q
+az104appserplanpjh
+############110. App Service Plans
+Microsoft.Web-ASP-Portal-25bda461-a573
+labuser_77623_37204289@instructorwhizlabs.onmicrosoft.com Pay-As-You-Go    82676786-5bc7-43c6-b8f8-b3ee02b0b5f3 AzureC…
+Good decision on sizes
+############111. Web Apps
+az104webapppjh
+https://az104webapppjh.azurewebsites.net
+############112. Web App Settings
+labuser_77623_37479058@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_1664576851213
+$*&4uT%b0Z2!wIQ
+az104webapppjh
+labuser_77623_37479058@instructorwhizlabs.onmicrosoft.com Pay-As-You-Go    82676786-5bc7-43c6-b8f8-b3ee02b0b5f3 AzureC…
+https://az104webapppjh.azurewebsites.net
+thewonderfulworkpjh.com
+############113. Scaling Web Apps
+https://learn.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-best-practices
+############114. *NEW* Backup Web Apps
+labuser_77623_57205320@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_16646622771814
+5t#o8Bx3*Ye0V?KF
+labuser_77623_57205320@instructorwhizlabs.onmicrosoft.com Pay-As-You-Go    82676786-5bc7-43c6-b8f8-b3ee02b0b5f3 AzureC…
+az104webapppjh
+az104storeaccpjh
+az104scontainerpjh
+az104appserplanpjh
+############115. *NEW* App Service Networking
+https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/blob/master/Instructions/Labs/LAB_09a-Implement_Web_Apps.md
+Task 1: Create an Azure web app
+Task 2: Create a staging deployment slot
+Task 3: Configure web app deployment settings
+Task 4: Deploy code to the staging deployment slot
+Task 5: Swap the staging slots
+Task 6: Configure and test autoscaling of the Azure web app
+git clone https://github.com/Azure-Samples/php-docs-hello-world
+git remote add [deployment_user_name] [git_clone_url]
+git remote add patrickhannon https://github.com/Azure-Samples/php-docs-hello-world
+git push patrickhannon master
+############116. *NEW* App Service Networking
+########################Section 17: Azure Kubernetes Services
+labuser_77623_87143948@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_16647459261187
+Nm6l3PB$a7Qr%5?W
+labuser_77623_87143948@instructorwhizlabs.onmicrosoft.com Pay-As-You-Go    82676786-5bc7-43c6-b8f8-b3ee02b0b5f3 AzureC…
+############117. Introduction to Containers
+############118. Create an AKS Cluster
+az104kubespjh
+'DefaultResourceGroup-EUS' could not be found."
+{"code":"MultipleErrorsOccurred","message":"Multiple error occurred: NotFound,NotFound. Please see details.","details":[{"code":"ResourceGroupNotFound","message":"Resource group 'DefaultResourceGroup-EUS' could not be found."},{"code":"ResourceGroupNotFound","message":"Resource group 'DefaultResourceGroup-EUS' could not be found."}]}
+DefaultWorkspace-rg_eastus_77623_1_16647459261187-EUS
+https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-powershell
+############119. Kubectl
+WARNING: Please add C:\Users\patri\.azure-kubectl to your search PATH so the kubectl.exe can be found.
+C:\Users\patri\OneDrive\___Docs\__Cloud\___azure\AZ-104 Prerequisites for Azure administrators\kubernetes
+labuser_77623_51682867@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_1664797116896
+qQXl$0#*7Z!s43B%
+labuser_77623_51682867@instructorwhizlabs.onmicrosoft.com Pay-As-You-Go    82676786-5bc7-43c6-b8f8-b3ee02b0b5f3 AzureC…
+
+kubectl: The term 'kubectl' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+WARNING: Please add C:\Users\patri\.azure-kubectl to your search PATH so the kubectl.exe can be found.
+C:\Users\patri\OneDrive\___Docs\__Cloud\___azure\'AZ-104 Prerequisites for Azure administrators'\kubernetes
+############120. Deploy a Container to AKS
+############121. Scaling Kubernetes
+############122. Installing Docker Desktop
+############123. ACI Azure Container Instances
+az104containerpjh
+############124. *NEW* Azure Container Apps
+labuser_77623_93500689@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_1664922268572
+Ep%l?r#73Si4eR
+az104containerdemopjh
+############125. Hands-On Practice
+https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/blob/master/Instructions/Labs/LAB_09c-Implement_Azure_Kubernetes_Service.md
+labuser_77623_93500689@instructorwhizlabs.onmicrosoft.com Pay-As-You-Go    82676786-5bc7-43c6-b8f8-b3ee02b0b5f3 AzureC…
+########################Section 18:Manage Virtual Networking
+############126. Virtual Networks
+az104virtualnetpjh
+10.0.0.0/24
+CDER 
+############127. Public IP Addresses
+az104publicippjh2
+az104vnetpjh
+az104routetabpjh
+labuser_77623_86182324@instructorwhizlabs.onmicrosoft.com
+8A%c!&h7?qZ1YSk52
+rg_eastus_77623_1_1665012878797
+############128. Network Routing
+############129. VPNs and ExpressRoute
+############130. ExpressRoute Direct
+############131. *NEW* Create Azure Firewall
+az104firewallpjh
+{"code":"DeploymentFailed","message":"At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/DeployOperations for usage details.","details":[{"code":"BadRequest","message":"{\r\n  \"status\": \"Failed\",\r\n  \"error\": {\r\n    \"code\": \"FirewallPolicyMissingRequiredFeatureAllowBasic\",\r\n    \"message\": \"Subscription '71fa0172-ce90-403c-94a9-14ce1e88f56a' is missing required feature 'Microsoft.Network/AzureFirewallBasic' for Basic policies.\"\r\n  }\r\n}"}]}
+############132. *NEW* Configure Azure Firewall
+labuser_77623_55720942@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_16650566931149
+Kk90!Lcs&B*Z4%
+az104publicipjh2
+az104firewallpjh
+az104policypjh
+az104routetabpjh
+az104vnetpjh
+labuser_77623_55720942@instructorwhizlabs.onmicrosoft.com
+Kk90!Lcs&B*Z4%
+rg_eastus_77623_1_16650566931149
+labuser_77623_55720942@instructorwhizlabs.onmicrosoft.com Pay-As-You-Go    82676786-5bc7-43c6-b8f8-b3ee02b0b5f3 AzureC…
+####################
+labuser_77623_23014369@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_16652606221495
+!5%J4*3x#jzG&KPFwm
+labuser_77623_23014369@instructorwhizlabs.onmicrosoft.com Pay-As-You-Go    82676786-5bc7-43c6-b8f8-b3ee02b0b5f3 AzureC…
+joshua36634_
+Stop
+############133. *NEW* Virtual WAN
+############134. Hands-On Practicehttps://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/blob/master/Instructions/Labs/LAB_04-Implement_Virtual_Networking.md
+labuser_77623_54359003@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_16654404961289
+!M&s68V7wml9%Y2
+labuser_77623_54359003@instructorwhizlabs.onmicrosoft.com Pay-As-You-Go    82676786-5bc7-43c6-b8f8-b3ee02b0b5f3
+joshua36634_
+CreateaVirtualNetworkWithTwoSubnetsandNetworkSecurityGroup
+Task 1: Create and configure a virtual network
+done
+Task 2: Deploy virtual machines into the virtual network
+done
+Task 3: Configure private and public IP addresses of Azure VMs
+az104-04-vm0=20.169.248.97
+az104-04-vm1=20.172.216.181
+Task 4: Configure network security groups
+Task 5: Configure Azure DNS for internal name resolution
+Task 6: Configure Azure DNS for external name resolution
+########################Section 19: Implement and Manage virtual networking
+az104pjhvnetTOaz104vnetpjh 
+az104vneteastasia
+
+labuser_77623_52752340@instructorwhizlabs.onmicrosoft.com
+GX1cQ!8K$?#w0%pE
+rg_eastus_77623_1_16655322961809
+
+PS C:\Users\Student> nslookup az104-04-vm1.contoso.org
+Server:  UnKnown
+Address:  168.63.129.16
+
+Non-authoritative answer:
+Name:    az104-04-vm1.contoso.org
+Address:  10.40.1.4
+
+PS C:\Users\Student> nslookup az104-04-vm0.contoso.org
+Server:  UnKnown
+Address:  168.63.129.16
+
+Non-authoritative answer:
+Name:    az104-04-vm0.contoso.org
+Address:  10.40.0.4
+
+Non-authoritative answer:
+Name:    az104-04-vm1.contoso.org
+Address:  10.40.1.4
+pjhannon.com
+
+nslookup az104-04-vm0.contoso.org
+nslookup az104-04-vm1.contoso.org
+
+nslookup az104-04-vm0.pjhannon.com az104-04-vm0
+########################137. Azure-to-Azure Virtual Network Gateway
+############135. Introduction to VNET Peering
+############136. Configure Global Peering
+############137. Azure-to-Azure Virtual Network Gateway
+############139. Hands-On Practice
+https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/blob/master/Instructions/Labs/LAB_05-Implement_Intersite_Connectivity.md
+labuser_77623_67494110@instructorwhizlabs.onmicrosoft.com
+#Zg$GD?94m%P2e8
+rg_eastus_77623_1_1665614823656
+
+Task 1: Provision the lab environment
+Task 2: Configure local and global virtual network peering
+Task 3: Test intersite connectivity
+########################Section 20: Configure name resolution
+############140. *UPDATED* Azure DNS Services
+
+labuser_77623_18698078@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_1665950559200
+s2%ExH3Qbd9!8R*1Vj
+patrickjosephhannon@outlook.com
+#####################3
+labuser_77623_12805024@instructorwhizlabs.onmicrosoft.com
+x7rc?EGoT$53s!
+rg_eastus_77623_1_1666131963637
+labuser_77623_12805024@instructorwhizlabs.onmicrosoft.com Pay-As-You-Go    82676786-5bc7-43c6-b8f8-b3ee02b0b5f3
+az104newdnspjh.com
+devserver.local
+dnsvnetpjh
+
+labuser_77623_61028396@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_16663081281688
+X0%v7w!&9G18l?Lh#
+#####################
+https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/Labs/LAB_09c-Implement_Azure_Kubernetes_Service.html
+#####################Task 1: Register the Microsoft.Kubernetes and Microsoft.KubernetesConfiguration resource providers.
+#####################Task 2: Deploy an Azure Kubernetes Service cluster
+#####################Task 3: Deploy pods into the Azure Kubernetes Service cluster
+UDemmy Test
+UPN mismatch between Azure AD and on premises Active Directory
+Find a Network Security Rule Preventing Network Packet From Reaching Virtual Machine
+####################
+labuser_77623_46871931@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_16665412171291
+57$3TH!6k4#?iI%hX
+Account                                                   SubscriptionName TenantId                             Environ
+                                                                                                                ment
+-------                                                   ---------------- --------                             -------
+labuser_77623_72770861@instructorwhizlabs.onmicrosoft.com Pay-As-You-Go    82676786-5bc7-43c6-b8f8-b3ee02b0b5f3 Azure
+Getcloudskillsstor
+devserver.local
+devserver.local
+Private DNS zone
+5 minutes ago
+rg_eastus_77623_1_16664670571723
+Resource group
+5 minutes ago
+dnsvnet
+############141. Create a Private DNS Zone
+############142. Create a Public DNS Zone
+theplasticpaddy.com
+ns1-03.azure-dns.com
+ns2-03.azure-dns.net
+ns3-03.azure-dns.org
+ns4-03.azure-dns.info
+#####################Section 21: Secure access to virtual networks 
+############143. NSGs
+labuser_77623_54491654@instructorwhizlabs.onmicrosoft.com
+rg_eastus_77623_1_16666113581731
+Xs%Q14B&wG2?Sb
+labuser_77623_54491654@instructorwhizlabs.onmicrosoft.com Pay-As-You-Go    82676786-5bc7-43c6-b8f8-b3ee02b0b5f3 AzureC…
+############143. Implement Effective NSG Rules
+############144. Section 4 Wrapup
+############145. Hands-On Practice
+Task 1: Create and configure a virtual network done 
+Task 2: Deploy virtual machines into the virtual network done 
+Task 3: Configure private and public IP addresses of Azure VMs done 
+Task 4: Configure network security groups done 
+Task 5: Configure Azure DNS for internal name resolution
+#####################Section 22: Configure load balancing
+############146. Introduction to Load Balancing
+labuser_77623_66719007@instructorwhizlabs.onmicrosoft.com
+F8eDUjkc6*$359!#O
+rg_eastus_77623_1_1666826902759
+############147. Setup Load Balancer
+Lab 06 - Implement Traffic Management
+https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/blob/master/Instructions/Labs/LAB_06-Implement_Network_Traffic_Management.md
+Task 1: Provision the lab environment done
+Task 2: Configure the hub and spoke network topology done 
+Task 3: Test transitivity of virtual network peering done
+Task 4: Configure routing in the hub and spoke topology done
+Task 5: Implement Azure Load Balancer done
+Task 6: Implement Azure Application Gateway
+
+############148. *NEW* Create a Test Environment Quickly Using GitHub
+CreateNetworkWatcherExtension
+az104-06-vnet2 = Resource ID = 
+/subscriptions/71fa0172-ce90-403c-94a9-14ce1e88f56a/resourceGroups/rg_eastus_77623_1_16672151941411/providers/Microsoft.Network/virtualNetworks/az104-06-vnet2
+az104-06-vnet3 = Resource ID =
+/subscriptions/71fa0172-ce90-403c-94a9-14ce1e88f56a/resourceGroups/rg_eastus_77623_1_16672151941411/providers/Microsoft.Network/virtualNetworks/az104-06-vnet3
+labuser_77623_90657773@instructorwhizlabs.onmicrosoft.com
+?x2#05&waTPR1h$t
+rg_eastus_77623_1_1667340776914
+autoaccpjh104
+az104-06-vnet2=Resource ID=/subscriptions/71fa0172-ce90-403c-94a9-14ce1e88f56a/resourceGroups/rg_eastus_77623_1_16673421311203/providers/Microsoft.Network/virtualNetworks/az104-06-vnet2
+az104-06-vnet3=Resource ID/subscriptions/71fa0172-ce90-403c-94a9-14ce1e88f56a/resourceGroups/rg_eastus_77623_1_16673421311203/providers/Microsoft.Network/virtualNetworks/az104-06-vnet3
+#####################Section 23: Monitor and troubleshoot virtual networking
+155. *NEW* Azure Monitor for Networks
+156. Network Watcher
+157. Hands-On Practice
+158. Hub and Spoke Network Design
+#####################Section 24: NEW Monitor resources by using Azure Monitor 
+159. Overview of Azure Monitor
+160. Enabling Diagnostics for Resources
+161. Adding Guest OS Host Diagnostics
+162. Running Basic Kusto Queries on Logs
+geo-zone-redundant storage (GZRS)
+10/06/2022 to 11/03/2022
+az104-06-vnet2
+/subscriptions/efc4dc30-77e6-40ef-8fa7-723d050178ff/resourceGroups/az104-06-rg1/providers/Microsoft.Network/virtualNetworks/az104-06-vnet2
+az104-06-vnet3
+/subscriptions/efc4dc30-77e6-40ef-8fa7-723d050178ff/resourceGroups/az104-06-rg1/providers/Microsoft.Network/virtualNetworks/az104-06-vnet3
+Frontend IP configuration
+20.169.194.204 (az104-06-pip4)
+az104-06-appgw5 Frontend public IP address
+
+10/06/2022 to 11/03/2022
+conditional forwarding rules to send DNS queries to the correct virtual network for resolution
+
+azure_kubernetes_cli
+
+phannon;SmithAndJones34%
+C:\Users\patri\OneDrive\___Docs\__Cloud\___azure\AZ-104_Prerequisites_for_Azure_administrators\kubernetes_cli
+
+https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/blob/master/Instructions/Labs/LAB_05-Implement_Intersite_Connectivity.md
+Task 2: Configure local and global virtual network peering
+Done
+
+https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/blob/master/Instructions/Labs/LAB_10-Implement_Data_Protection.md
+
+labuser_77623_20559371@instructorwhizlabs.onmicrosoft.com
+%25z16$#3UBrDvxCy
+rg_eastus_77623_1_1668516483855
+https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/blob/master/Instructions/Labs/LAB_09a-Implement_Web_Apps.md
+Task 1: Create an Azure web app done
+Task 2: Create a staging deployment slot
+Task 3: Configure web app deployment settings
+https://webapppjh104-staging.scm.azurewebsites.net:443/webapppjh104.git
+
+phannon
+_123355Pass___
+https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/Labs/LAB_01-Manage_Azure_AD_Identities.html
+Task 1: Create and configure Azure AD users
+az104-01a-aaduser1@patrickjosephhannonoutlook.onmicrosoft.com
+_123355Pass___
+Task 1: Provision the lab environment
+Task 2: Register the Microsoft.Insights and Microsoft.AlertsManagement resource providers.
+Task 2: Register the Microsoft.Insights and Microsoft.AlertsManagement resource providers.
+Task 3: Create and configure an Azure Log Analytics workspace and Azure Automation-based solutions
+Task 4: Review default monitoring settings of Azure virtual machines
+Task 6: Review Azure Monitor functionality
+Task 7: Review Azure Log Analytics functionality
+
+getcloudskills.learnondemand.net
+_Lights338
+mightysocks872
+https://github.com/LODSContent/ChallengeLabs_Resources/tree/master/ais-008
+#####################HCS-011: Can You Deploy a Web App with Da
+db27451932
+sql27451932
+adminuser
+Pa55w.rd
+Azure Backup Policy has two components: Schedule (when to take backup) and Retention
+#####################AIS-010: Can You Automate and Manage Cus
+sysprep.exe
+Description	Details
+Exam
+AZ-104: Microsoft Azure Administrator
+Language: English
+Length: 120 minutes
+#####################HCS-003: Can You Deploy an Azure Web Ap
+Taylor-27570384@cloudslice.onmicrosoft.com
+dHkB9e!0D!
+AzureAdmin
+AzPwd27570384!
+Create an Azure SQL database done
+Create an Azure web app done
+https://wa27570384.azurewebsites.net/
+Deploy the web app to a testing deployment slot
+Deploy the web app to production
+https://wa27570384.azurewebsites.net
+https://github.com/LODSContent/LODS_HCS.git
+#####################ANS-009: Can You Configure an API Manage
+Create an Azure API Management instance
+Create an Azure function app
+New storage account
+Create an HTTP trigger function in a function app
+https://fa-27584946.azurewebsites.net/api/HttpTrigger1?code=nzh8iX8ePz582dTzKTJr7Zp3tWWsuNZ-g7hwGnB042VjAzFuJxYP9g==
+Create an API by importing an existing function app
+Secure a published API by using a product and subscription
+#####################CSAA-003 Can You Manage a Serverless Compute Environment?
+Resource Group	Archlod27601839
+Web App	lods2760183927601839
+Storage Account	sa2760183927601839
+SQL Server	sql2760183927601839
+SQL Database	blobTracking
+Add a Storage Queue output
+{"code":"ResourceGroupNotFound","message":"Resource group 'DefaultResourceGroup-EUS' could not be found."}
+Iq6DPOvnOSMNDBhqduvcJPLaaSqTGtai/homeAxrVDm+YexOu6RhlvX3hNvQ4o3CqZw95Y7HHefY+AStR4/KIg==
+#####################CSST-003 Can You Provision Public and Private Blob Storage for a Web App? [Advanced]
+StorageAccountName sa27655175
+StorageAccountKey Key 1 
+StorageAccountSAS sp=r&st=2022-12-15T00:03:13Z&se=2022-12-15T08:03:13Z&spr=https&sv=2021-06-08&sr=b&sig=fUn%2FmkRvp8%2B%2BtfAjTwN2VKdumYJEx%2F5i4s0BTqLgsVA%3D
+sp=r&st=2022-12-15T00:08:52Z&se=2022-12-15T08:08:52Z&spr=https&sv=2021-06-08&sr=b&sig=IdmIGZ5nrKfDGscUs2iYD89iQAwSbSiI2xhrl%2BW4GzY%3D
+#####################IaaS-004 Configure a Route Table Using the Azure Portal
+#####################HCS-010 Can You Deploy a Scalable Azure Solution by Using ARM Templates?
+VNet1 101-vnet-two-subnets
+VNet2 101-vnet-two-subnets
+201-existing-vnet-to-vnet-peering
+{
+    "status": "Failed",
+    "error": {
+        "code": "VnetAddressSpacesOverlap",
+        "message": "Cannot create or update peering /subscriptions/2fd9a351-e8c1-4578-82c2-a9528e883bae/resourceGroups/corp-datalod27678789/providers/Microsoft.Network/virtualNetworks/VNet1/virtualNetworkPeerings/peering-to-remote-vnet. Virtual networks /subscriptions/2fd9a351-e8c1-4578-82c2-a9528e883bae/resourceGroups/corp-datalod27678789/providers/Microsoft.Network/virtualNetworks/VNet1 and /subscriptions/2fd9a351-e8c1-4578-82c2-a9528e883bae/resourceGroups/corp-datalod27678789/providers/Microsoft.Network/virtualNetworks/VNet2 cannot be peered because their address spaces overlap. Overlapping address prefixes: 10.0.0.0/16",
+        "details": []
+ }
+         "message": "Resource /subscriptions/2fd9a351-e8c1-4578-82c2-a9528e883bae/resourceGroups/corp-datalod27678789/providers/Microsoft.Network/virtualNetworks/AppVNet referenced by resource /subscriptions/2fd9a351-e8c1-4578-82c2-a9528e883bae/resourceGroups/corp-datalod27678789/providers/Microsoft.Network/virtualNetworks/WebVNet/virtualNetworkPeerings/peering-to-remote-vnet was not found. Please make sure that the referenced resource exists.",
+Deploy Azure virtual machines by using ARM templates
+Student
+Azure!P@ssw0rd
+
+Settings in most of the "deploy arm template" do not match the correct :) instructions in the lesson
+
+#####################CSMMS-007 Can You Monitor a Web App?
+#####################CSMMS-005 Configure Application Insights
+Resource Group	WebAppslod27736769
+Storage Account	sa27736769
+App Service Plan	MMS-ASP
+Web App	mms27736769
+#####################
+800 W 4th St 79763
+Thanks Patrick, your reservation is confirmed!
+We’ve emailed your confirmation to patrick_hannon@hotmail.com. There’s no need to call us to reconfirm. Enjoy your stay!
+Itinerary number: 72451861582203
+TTUHSC Odessa
+800 W 4th Street, Odessa, TX 79763
+(432) 335 - 2222
+
+SOUTHSIDE BANK 84470QPB7 CD3SOU
+BANK OF BARODA CD3BRD
+We're sorry, there was a problem with your order. (RES_ACT9)
+This CD is not available for purchase by residents of your state. (RES_JUNO_VERIFY_ERROR_0010)
+For more information, call 877.653.4732.
+New Issue Certificate of Deposit
+ THE SAVINGS BANK OF DANBURY80529ACL3
+ 	
+Bb Auto Set of 4 New Chrome Wheel Hub Center Caps 3.25 inch Replac
+
+https://www.ttuhsc.edu/
+Texas Tech University Health Sciences Center
+800 W 4th St
+Odessa, TX 79763
+T: 432.335.2222
+
+1
+https://www.waspmuseum.org/
+National WASP WWII Museum
+PO Box 456
+Sweetwater, Texas 79556
+
+http://www.frontiertexas.com/visit
+625 NORTH FIRST STREET, ABILENE, TX 79601
+
+Stonehenge Replica
+Preston Smith Rd. | Odessa
+
+
+I Bonds Current Rate: 6.89%
+2,431.53
+Series I Savings Bonds For savings bonds issued November 1, 2022 to April 30, 2023.
+
+Travelodge by Wyndham Odessa
+3075 East Highway 80, Odessa, TX, 79761 
+United States of America
+
+2
+Museum of the Southwest Campus
+1705 W. Missouri Ave.
+Midland, TX 79705
+432.683.2882
+
+59,058.88
+6,689.94
+01-03-2023  IAAAC
+$7,000.00
+8,766.61
+C6250-100NAS V1.01.26
+https://kb.netgear.com/000036375/What-s-the-latest-firmware-version-of-my-NETGEAR-cable-modem-or-modem-router
+######################CSAA-003 Can You Manage a Serverless Compute Environment?
+Resource Group	Archlod27877891
+Web App	lods2787789127877891
+Storage Account	sa2787789127877891
+SQL Server	sql2787789127877891
+SQL Database	blobTracking
+
+public static void Run(Stream myBlob, string name, ILogger log, out string outputQueueItem)
+{
+    outputQueueItem = name;
+    log.LogInformation($"C# Blob trigger function Processed blob\n Name:{name} \n Size: {myBlob.Length} Bytes");
+}
+sa27877891 
+raw/hottub.txt
+XIU+K/6g6IKzObBcUSobydUGTZzsciLaChQ4aREByIgvc6Btmb0+Bs8hb1kGLV+kwhQm1QWPbhiU+ASt8aY2hg==
+process
+outputQueueItem
+####################ANS-004 Can You Implement a Secure Azure Virtual Machine Network? [Advanced]
+Configure an application security group
+Create a firewall and a route table
+fwpip27886562=52.149.159.85=
+public = 52.149.159.85
+private = 10.1.63.4
+app-vnet-firewall Overview tab does not show public IP address 
+Configure the firewall
+Configure Azure to support Network Watcher continue
+####################Can You Implement Security for an Azure Web App? [Advanced]
+####################Configure Application Insights [Guided]
+####################ANS-006: Implement Security for an Azure Web App [Guided]
+https://github.com/LODSContent/LODSOC_app-service-web-dotnet-get-started
+https://getcloudskills.learnondemand.net/
+457-85-5396
+Beneficiary Definition & Meaning - Dictionary.com
+
+Confirm #:	IAAAC
+Purchase Schedule:	None
+Security Type:	Series I Savings Bond
+Amount:	$7,000.00
+Issue Date:	01-01-2023
+Maturity Date:	01-01-2053
+Interest Rate:	6.89%
+Current Value:	$7,000.00
+Registration:	Patrick Joseph Hannon  639-76-4198
+Rights:	None
+Rebecca 
+Faye 
+Hannon
+457-85-5396
+#############################CSMMS-005 Configure Application Insights 
+three fault domains and twenty update domains
+
+Saturday, March 18, 2023
+patrickjosephhannon@outlook.com
+accessCode=502-676-558 locale=en-US
+Can You Deploy Hybrid-Cloud Azure Solutions by Using ARM Templates? [Expert]
+HCARM-010
+
+Create 2 Virtual Machines under a Load balancer and configures Load Balancing rules for the VMs
+Deployment of a VM Scale Set of Linux VMs behind an load balancer with NAT rules
+VNET to VNET connection
+C/Tr 202/FH13
+
+OSF-4606
+##############################AIS-006 Configure a Virtual Machine by Using a Custom Script Extension
+AZ-104: Microsoft Azure Administrator 
+Length: 120 minutes
+Saturday, March 25, 2023
+Check-in time: 07:00 America/Chicago - CDT
+Start time: 07:30 America/Chicago - CDT 
+
+Order Number/Invoice
+0064-5192-6127
+Registration ID
+432806800 
+Can You Provision Public and Private Blob Storage for a Web App? [Advanced]
+dataASP (B1: 1)
+poe compatible unifi6 
+From what i can gather, according to the page > product specs > hardware it requires an input voltage / amps of "802.3af PoE; 48V, 
+0.32A PoE Adapter (Not Included)"
+Buying same AP and thought thIs will work POE-48-24W
+PoE Injector, 48VDC, 24W, Gbit
+Ubiquiti Networks POE-48-24W-G 48V PoE Adapter
+learn.microsoft.com
+AZ-104: Manage identities and governance in Azure
+User1;Samo6450;Samo64502;User1@patrickjosephhannonoutlook.onmicrosoft.com
+User2;Samo6450_
+LabUser1;Samo6450_;LabUser1@adatumlab123456pjh.onmicrosoft.com
+Manage identities and governance in Azure (15-20%)
+https://portal.azure.com//#resource/subscriptions/4aad3aaf-1575-4b1f-8c0d-e9e8c9563f09/resourceGroups/az104_duffy/providers/Microsoft.StorageSync/storagesyncservices/test
+##############################
+labuser_77623_87460435@instructorwhizlabs.onmicrosoft.com
+P1m&rx#5NF$2Y9K
+rg_eastus_77623_1_1676915623691
+##############################
+labuser_77623_79513869@instructorwhizlabs.onmicrosoft.com
+2%34M!mXQ?0qSfk
+testpjh;test_pjh12vtse;testpjh_vnet;devserver.local;dnsvnet;firstlink;mynewvm
+New-NetFirewallRule -DisplayName "Allow ICMPv4-In" -Protocol ICMPv4
+ping web.devserver.local
+ping db.devserver.local
+##############################
+vm1;testpjh;P_assword12789
+213.199.138.9
+mstsc /v:213.199.138.9
+rg_eastus_77623_1_1677198009499
+testpjh;test_pjh12vtse;testpjh_vnet;devserver.local;dnsvnet;firstlink;mynewvm
+az deployment group create --resource-group rg_eastus_77623_1_16776085631252 --template-file template.json --parameters location=easttus language=.net helloWorld=true sku=B1 webAppName=testapppjh
+###############################6:47 AM Monday, June 19, 2023
+labuser_77623_28711016@instructorwhizlabs.onmicrosoft.com
+f9w!yT#$?&xL5Kp6
+rg_eastus_77623_1_168717522750

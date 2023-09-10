@@ -1,0 +1,1 @@
+New-AzResourceGroupDeployment -ResourceGroupName "rg_eastus_77623_1_16642314191253" -TemplateUri https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/quickstarts/microsoft.compute/customscript-extension-public-storage-on-ubuntu/azuredeploy.json

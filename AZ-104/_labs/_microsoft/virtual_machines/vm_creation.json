@@ -1,0 +1,61 @@
+{
+    "name": "az104-08-vm0",
+    "id": "/subscriptions/71fa0172-ce90-403c-94a9-14ce1e88f56a/resourceGroups/rg_eastus_77623_1_1663761094765/providers/Microsoft.Compute/virtualMachines/az104-08-vm0",
+    "type": "Microsoft.Compute/virtualMachines",
+    "location": "eastus",
+    "properties": {
+        "vmId": "ea3594f6-14eb-482f-aed8-e16964e3074d",
+        "hardwareProfile": {
+            "vmSize": "Standard_B2s"
+        },
+        "storageProfile": {
+            "imageReference": {
+                "publisher": "MicrosoftWindowsServer",
+                "offer": "WindowsServer",
+                "sku": "2019-datacenter-gensecond",
+                "version": "latest"
+            },
+            "osDisk": {
+                "osType": "Windows",
+                "name": "az104-08-vm0_OsDisk_1_a9ec798f2e65464d9ffe456e4a0e016a",
+                "createOption": "FromImage",
+                "caching": "ReadWrite",
+                "managedDisk": {
+                    "storageAccountType": "Premium_LRS",
+                    "id": "/subscriptions/71fa0172-ce90-403c-94a9-14ce1e88f56a/resourceGroups/rg_eastus_77623_1_1663761094765/providers/Microsoft.Compute/disks/az104-08-vm0_OsDisk_1_a9ec798f2e65464d9ffe456e4a0e016a"
+                },
+                "diskSizeGB": 127
+            },
+            "dataDisks": []
+        },
+        "osProfile": {
+            "computerName": "az104-08-vm0",
+            "adminUsername": "phannon",
+            "windowsConfiguration": {
+                "provisionVMAgent": true,
+                "enableAutomaticUpdates": true
+            },
+            "secrets": []
+        },
+        "networkProfile": {
+            "networkInterfaces": [
+                {
+                    "id": "/subscriptions/71fa0172-ce90-403c-94a9-14ce1e88f56a/resourceGroups/rg_eastus_77623_1_1663761094765/providers/Microsoft.Network/networkInterfaces/az104-08-vm0135_z1",
+                    "properties": {
+                        "deleteOption": "Detach"
+                    }
+                }
+            ]
+        },
+        "diagnosticsProfile": {
+            "bootDiagnostics": {
+                "enabled": true,
+                "storageUri": "https://rgeastus7762311663761094.blob.core.windows.net/"
+            }
+        },
+        "provisioningState": "Succeeded"
+    },
+    "zones": [
+        "1"
+    ]
+}

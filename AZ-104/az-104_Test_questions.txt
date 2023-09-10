@@ -1,0 +1,32 @@
+######################6:54 AM Tuesday, June 13, 2023
+azure DNS zone delegate to a different server
+labuser_77623_75204485@instructorwhizlabs.onmicrosoft.com
+59orLl0!R#&j$B7*4
+rg_eastus_77623_1_168665796484
+whizpjh.com
+######################6:39 AM Wednesday, June 14, 2023
+labuser_77623_97319491@instructorwhizlabs.onmicrosoft.com
+A13zkm*H&J$0!9
+rg_eastus_77623_1_168674267277
+whizXXXX.com 
+ns1-03.azure-dns.com.
+ns2-03.azure-dns.net.
+ns3-03.azure-dns.org.
+ns4-03.azure-dns.info.
+
+Bengarth23!
+
+Your claim number is
+I2M5611
+
+DATE OF INCIDENT
+June 13, 2023
+####################
+NETGEAR ProSafe GS108P 8-Port 10/100/1000 Gigabit Switch With 4-Port PoE
+####################7:04 AM Friday, June 16, 2023
+labuser_77623_95658113@instructorwhizlabs.onmicrosoft.com
+c7nQN4ge8!0IA%#$?9
+rg_eastus_77623_1_168691700141
+whizVNet
+Student
+Student_1234

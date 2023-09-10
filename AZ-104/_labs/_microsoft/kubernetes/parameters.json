@@ -1,0 +1,60 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "resourceName": {
+            "value": "az104kubespjh"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "dnsPrefix": {
+            "value": "az104kubespjh-dns"
+        },
+        "kubernetesVersion": {
+            "value": "1.23.8"
+        },
+        "networkPlugin": {
+            "value": "kubenet"
+        },
+        "enableRBAC": {
+            "value": true
+        },
+        "nodeResourceGroup": {
+            "value": "MC_rg_eastus_77623_1_16647459261187_az104kubespjh_eastus"
+        },
+        "adminGroupObjectIDs": {
+            "value": []
+        },
+        "disableLocalAccounts": {
+            "value": false
+        },
+        "azureRbac": {
+            "value": false
+        },
+        "enablePrivateCluster": {
+            "value": false
+        },
+        "enableHttpApplicationRouting": {
+            "value": false
+        },
+        "enableAzurePolicy": {
+            "value": false
+        },
+        "enableSecretStoreCSIDriver": {
+            "value": false
+        },
+        "vmssNodePool": {
+            "value": true
+        },
+        "workspaceName": {
+            "value": "DefaultWorkspace-71fa0172-ce90-403c-94a9-14ce1e88f56a-EUS"
+        },
+        "omsWorkspaceId": {
+            "value": "/subscriptions/71fa0172-ce90-403c-94a9-14ce1e88f56a/resourceGroups/DefaultResourceGroup-EUS/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-71fa0172-ce90-403c-94a9-14ce1e88f56a-EUS"
+        },
+        "workspaceRegion": {
+            "value": "eastus"
+        }
+    }
+}

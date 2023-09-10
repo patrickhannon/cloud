@@ -1,0 +1,106 @@
+{
+  "id": "/subscriptions/71fa0172-ce90-403c-94a9-14ce1e88f56a/resourceGroups/rg_eastus_77623_1_16647459261187/providers/Microsoft.Resources/deployments/microsoft.aks-20221002171501",
+  "name": "microsoft.aks-20221002171501",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/71fa0172-ce90-403c-94a9-14ce1e88f56a/resourcegroups/rg_eastus_77623_1_16647459261187/providers/Microsoft.ContainerService/managedClusters/az104kubespjh",
+    "marketplaceItemId": "microsoft.aks",
+    "provisioningHash": "postCreateId"
+  },
+  "properties": {
+    "templateHash": "12251094813367328553",
+    "parameters": {
+      "resourceName": {
+        "type": "String",
+        "value": "az104kubespjh"
+      },
+      "location": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "dnsPrefix": {
+        "type": "String",
+        "value": "az104kubespjh-dns"
+      },
+      "osDiskSizeGB": {
+        "type": "Int",
+        "value": 0
+      },
+      "kubernetesVersion": {
+        "type": "String",
+        "value": "1.23.8"
+      },
+      "networkPlugin": {
+        "type": "String",
+        "value": "kubenet"
+      },
+      "enableRBAC": {
+        "type": "Bool",
+        "value": true
+      },
+      "vmssNodePool": {
+        "type": "Bool",
+        "value": true
+      },
+      "windowsProfile": {
+        "type": "Bool",
+        "value": false
+      },
+      "nodeResourceGroup": {
+        "type": "String",
+        "value": "MC_rg_eastus_77623_1_16647459261187_az104kubespjh_eastus"
+      },
+      "adminGroupObjectIDs": {
+        "type": "Array",
+        "value": []
+      },
+      "azureRbac": {
+        "type": "Bool",
+        "value": false
+      },
+      "disableLocalAccounts": {
+        "type": "Bool",
+        "value": false
+      },
+      "enablePrivateCluster": {
+        "type": "Bool",
+        "value": false
+      },
+      "enableHttpApplicationRouting": {
+        "type": "Bool",
+        "value": false
+      },
+      "enableAzurePolicy": {
+        "type": "Bool",
+        "value": false
+      },
+      "enableSecretStoreCSIDriver": {
+        "type": "Bool",
+        "value": false
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Running",
+    "timestamp": "2022-10-02T22:17:37.8121665Z",
+    "duration": "PT42.8477474S",
+    "correlationId": "678b5385-5953-408e-a5e9-ba1191451d8b",
+    "providers": [
+      {
+        "namespace": "Microsoft.ContainerService",
+        "resourceTypes": [
+          {
+            "resourceType": "managedClusters",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "validationLevel": "Template"
+  }
+}

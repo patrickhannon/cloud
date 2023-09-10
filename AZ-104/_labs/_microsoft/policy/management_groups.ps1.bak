@@ -1,0 +1,3 @@
+#C:\Users\patri\OneDrive\___Docs\__Cloud\___azure\AZ-104 Prerequisites for Azure administrators\management_groups\Lab 02a Manage Subscriptions and RBAC
+
+New-AzRoleDefinition -InputFile $HOME/az104-02a-customRoleDefinition.json

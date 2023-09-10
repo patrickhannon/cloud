@@ -1,0 +1,19 @@
+[
+  {
+    "id": "/subscriptions/71fa0172-ce90-403c-94a9-14ce1e88f56a/resourceGroups/rg_eastus_77623_1_16647459261187/providers/Microsoft.Resources/deployments/microsoft.aks-20221002171501/operations/37E978D934584CB1",
+    "operationId": "37E978D934584CB1",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Running",
+      "timestamp": "2022-10-02T22:17:22.3431203Z",
+      "duration": "PT26.8497758S",
+      "trackingId": "de3c86ae-d3f0-44f4-8f1e-c1d5816fee1c",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/71fa0172-ce90-403c-94a9-14ce1e88f56a/resourceGroups/rg_eastus_77623_1_16647459261187/providers/Microsoft.ContainerService/managedClusters/az104kubespjh",
+        "resourceType": "Microsoft.ContainerService/managedClusters",
+        "resourceName": "az104kubespjh"
+      }
+    }
+  }
+]

@@ -1,0 +1,66 @@
+#Make sure policy definitions are run get rid of "Not Started Yet.."
+Start-AzPolicyComplianceScan -ResourceGroupName 'az204_sduffy'
+#https://docs.microsoft.com/en-us/azure/governance/policy/assign-policy-azurecli
+#https://docs.microsoft.com/en-us/azure/governance/policy/assign-policy-powershell
+#https://docs.microsoft.com/en-us/azure/governance/policy/tutorials/create-and-manage
+#
+Get-AzPolicyDefinition | Where-Object { $_.Properties.DisplayName -eq "Allowed virtual machine size SKUs" }
+
+# Get a reference to the resource group that is the scope of the assignment
+$rg = Get-AzResourceGroup -Name '<resourceGroupName>'
+
+# Get a reference to the built-in policy definition to assign
+$definition = Get-AzPolicyDefinition | Where-Object { $_.Properties.DisplayName -eq 'Audit VMs that do not use managed disks' }
+
+# Create the policy assignment with the built-in definition against your resource group
+New-AzPolicyAssignment -Name 'audit-vm-manageddisks' -DisplayName 'Audit VMs without managed disks Assignment' -Scope $rg.ResourceId -PolicyDefinition $definition
+
+Get-AzPolicyDefinition | Where-Object { $_.Properties.DisplayName -eq 'Allowed virtual machine size SKUs' }
+<#
+Name               : cccc23c7-8427-4f53-ad12-b6a63eb452b3
+ResourceId         : /providers/Microsoft.Authorization/policyDefinitions/cccc23c7-8427-4f53-ad12-b6a63eb452b3
+ResourceName       : cccc23c7-8427-4f53-ad12-b6a63eb452b3
+ResourceType       : Microsoft.Authorization/policyDefinitions
+SubscriptionId     : 
+Properties         : Microsoft.Azure.Commands.ResourceManager.Cmdlets.Implementation.Policy.PsPolicyDefinitionProperties
+PolicyDefinitionId : /providers/Microsoft.Authorization/policyDefinitions/cccc23c7-8427-4f53-ad12-b6a63eb452b3
+#>
+
+az login
+
+#C:\Users\patri\OneDrive\___Docs\__Cloud\___azure\AZ-104 Prerequisites for Azure administrators\policy\policy.ps1
+<#
+{
+    "cloudName": "AzureCloud",
+    "homeTenantId": "5187a1a8-f9cd-46ed-8c75-11a891247bb0",
+    "id": "4aad3aaf-1575-4b1f-8c0d-e9e8c9563f09",
+    "isDefault": false,
+    "managedByTenants": [],
+    "name": "hannonassociates",
+    "state": "Enabled",
+    "tenantId": "5187a1a8-f9cd-46ed-8c75-11a891247bb0",
+    "user": {
+      "name": "patrickjosephhannon@outlook.com",
+      "type": "user"
+    }
+#>
+Connect-AzAccount
+Set-AzContext -Subscription "4aad3aaf-1575-4b1f-8c0d-e9e8c9563f09"
+#########Set the subscription
+#patrickjosephhannon@outlook.com Azure subscription 1 5187a1a8-f9cd-46ed-8c75-11a891247bb0 AzureCloud
+#########Set the context
+Set-AzContext -Subscription "4aad3aaf-1575-4b1f-8c0d-e9e8c9563f09"
+
+<#
+Name                                     Account             SubscriptionName    Environment         TenantId
+----                                     -------             ----------------    -----------         --------
+hannonassociates (4aad3aaf-1575-4b1f-8c… patrickjosephhanno… hannonassociates    AzureCloud          5187a1a8-f9cd-46e…
+#>
+
+#########Create the rg
+New-AzResourceGroup -Name "mynewrg" -Location "East US"
+
+$rg = Get-AzResourceGroup -Name "mynewrg" -Location "East US"
+$rg.Resource
+$rg.ResourceGroupName
+#########Assign Policy to resource group

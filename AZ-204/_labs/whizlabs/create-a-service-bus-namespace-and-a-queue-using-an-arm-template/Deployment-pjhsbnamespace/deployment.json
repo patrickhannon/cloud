@@ -1,0 +1,77 @@
+{
+  "id": "/subscriptions/a07e1329-e13a-4c90-babc-03a38e8d3000/resourceGroups/az104-11-rg0/providers/Microsoft.Resources/deployments/pjhsbnamespace",
+  "name": "pjhsbnamespace",
+  "type": "Microsoft.Resources/deployments",
+  "properties": {
+    "templateHash": "9061702522424415390",
+    "parameters": {
+      "name": {
+        "type": "String",
+        "value": "pjhsbnamespace"
+      },
+      "location": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "skuName": {
+        "type": "String",
+        "value": "Basic"
+      },
+      "skuTier": {
+        "type": "String",
+        "value": "Basic"
+      },
+      "skuCapacity": {
+        "type": "Int",
+        "value": 1
+      },
+      "zoneRedundant": {
+        "type": "Bool",
+        "value": false
+      },
+      "minimumTlsVersion": {
+        "type": "String",
+        "value": "1.2"
+      },
+      "disableLocalAuth": {
+        "type": "Bool",
+        "value": false
+      },
+      "publicNetworkAccess": {
+        "type": "String",
+        "value": "Enabled"
+      },
+      "tags": {
+        "type": "Object",
+        "value": {}
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Running",
+    "timestamp": "2023-05-05T22:16:29.8511023Z",
+    "duration": "PT4.0365771S",
+    "correlationId": "a1d2a901-8ef6-447d-a440-08f2dbf8a170",
+    "providers": [
+      {
+        "namespace": "Microsoft.ServiceBus",
+        "resourceTypes": [
+          {
+            "resourceType": "namespaces",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "validationLevel": "Template"
+  },
+  "tags": {
+    "primaryResourceId": "/subscriptions/a07e1329-e13a-4c90-babc-03a38e8d3000/resourceGroups/az104-11-rg0/providers/Microsoft.ServiceBus/namespaces/pjhsbnamespace",
+    "marketplaceItemId": "Microsoft.ServiceBus"
+  }
+}

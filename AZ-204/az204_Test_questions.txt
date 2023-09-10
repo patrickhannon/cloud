@@ -1,0 +1,82 @@
+<policies>
+	<inbound>
+		<base/>
+	</inbound>
+	<backend>
+		<set-header name="X-Powered-By"
+		            exists-action="append"/>
+		<set-header name="X-AspNet-Version"
+		            exists-action="append"/>
+		<base/>
+	</backend>
+	<outbound>
+		<base/>
+	</outbound>
+	<on-error>
+		<base/>
+	</on-error>
+</policies>
+
+<policies>
+	<inbound>
+		<base/>
+	</inbound>
+	<backend>
+		<base/>
+	</backend>
+	<outbound>
+		<set-header name="X-Powered-By"
+		            exists-action="delete"/>
+		<set-header name="X-AspNet-Version"
+		            exists-action="delete"/>
+		<base/>
+	</outbound>
+	<on-error>
+		<base/>
+	</on-error>
+</policies>
+
+Azure API Management for Hybrid and multicloud API management self-hosted gateway for production container image tag
+
+add partitions to the event hub CLI
+az eventhubs eventhub update --resource-group MyResourceGroupName --namespace-name MyNamespaceName --name MyEventHubName --partition-count 12
+
+Azure Service Bus topic send messages to this topic with a time to live of 15 minutes
+
+create a container in a container group and mount an Azure file share as volume CLI
+
+az container create \
+    --resource-group $ACI_PERS_RESOURCE_GROUP \
+    --name hellofiles \
+    --image mcr.microsoft.com/azuredocs/aci-hellofiles \
+    --dns-name-label aci-demo \
+    --ports 80 \
+    --azure-file-volume-account-name $ACI_PERS_STORAGE_ACCOUNT_NAME \
+    --azure-file-volume-account-key $STORAGE_KEY \
+    --azure-file-volume-share-name $ACI_PERS_SHARE_NAME \
+    --azure-file-volume-mount-path /aci/logs/
+	
+	
+az container create -g MyResourceGroup --name myapp --image myimage:latest --command-line "cat /mnt/azfile/myfile" --azure-file-volume-share-name myshare --azure-file-volume-account-name mystorageaccount --azure-file-volume-account-key mystoragekey --azure-file-volume-mount-path /mnt/azfile
+az container create -g MyResourceGroup –name myapp –image myimage:latest --command-line “cat /mnt/azfile/myfile” --azure-file-volume-account-name mystorageaccount --azure-file-volume-account-key mystoragekey --azure-file-volume-mount-path /mnt/azfile
+Azure App Service web app load a TLS/SSL certificate in application code
+configure a web app to allow external requests from https://myapps.com
+setting session duration in a key stored in redis c#
+Azure web app application insights multi-step availability test
+_Smith22Light
+####################################11:11 AM Sunday, September 10, 2023
+labuser_77623_47322244@instructorwhizlabs.onmicrosoft.com
+5C%v3RLQ?*4z!t2g&1X
+rg_eastus_77623_1_169436232616
+whizkubcluster
+nodepoolaks
+MC_rg_eastus_77623_1_169436232616_whizkubcluster_eastus
+Task 1: Sign in to Azure Portal DONE
+Task 2: Deploy an AKS cluster DONE
+Task 3: Deploy a pod into the AKS cluster DONE
+Task 4: Scale containerized workloads in the AKS cluster
+whizstoragekub123 
+myfile123
+task_11022
+
+fatal: mmap failed: Invalid argument

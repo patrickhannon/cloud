@@ -1,0 +1,5 @@
+curl https://raw.githubusercontent.com/LODSContent/lods-azarch/master/Files/Client.py
+
+curl https://raw.githubusercontent.com/LODSContent/lods-azarch/master/Files/Client.py > ./Client.py
+
+./Client.py -a ci28308174.c4b7bmakgxb7bbge.eastus.azurecontainer.io -p 8080 -c 1

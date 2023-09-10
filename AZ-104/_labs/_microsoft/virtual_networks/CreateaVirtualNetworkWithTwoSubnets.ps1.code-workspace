@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../git/azure/azure_functions"
+		},
+		{
+			"path": "../arm_templates"
+		}
+	],
+	"settings": {
+		"debug.internalConsoleOptions": "neverOpen"
+	}
+}

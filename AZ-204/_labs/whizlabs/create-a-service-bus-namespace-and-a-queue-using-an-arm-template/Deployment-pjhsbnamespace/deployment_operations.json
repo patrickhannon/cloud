@@ -1,0 +1,19 @@
+[
+  {
+    "id": "/subscriptions/a07e1329-e13a-4c90-babc-03a38e8d3000/resourceGroups/az104-11-rg0/providers/Microsoft.Resources/deployments/pjhsbnamespace/operations/75569F4F14D6E539",
+    "operationId": "75569F4F14D6E539",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Running",
+      "timestamp": "2023-05-05T22:16:29.9545195Z",
+      "duration": "PT3.4687232S",
+      "trackingId": "64c4b392-18cc-43aa-8d43-6ef4bacefb45",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/a07e1329-e13a-4c90-babc-03a38e8d3000/resourceGroups/az104-11-rg0/providers/Microsoft.ServiceBus/namespaces/pjhsbnamespace",
+        "resourceType": "Microsoft.ServiceBus/namespaces",
+        "resourceName": "pjhsbnamespace"
+      }
+    }
+  }
+]
